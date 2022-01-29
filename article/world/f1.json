@@ -1,0 +1,289 @@
+{
+    "descriptions": [
+        {
+            "title": "食梦貂",
+            "items": [
+                "破碎的梦之精华",
+                "梦境帽",
+                "梦境鞋"
+            ],
+            "img": "1.png",
+            "type": "小怪",
+            "health": 850,
+            "despawn": 120,
+            "damge": 40
+        },
+        {
+            "title": "梦魇兽方塔斯",
+            "items": [
+                "破碎的梦之精华",
+                "梦之精华",
+                "梦境甲",
+                "梦境腿"
+            ],
+            "img": "2.png",
+            "type": "小怪",
+            "health": 1200,
+            "despawn": 120,
+            "damge": 50
+        },
+        {
+            "title": "梦魇逆徒涅洛伊",
+            "items": [
+                "破碎的梦之精华",
+                "梦之精华",
+                "梦境剑"
+            ],
+            "img": "3.png",
+            "type": "小BOSS",
+            "health": 5000,
+            "despawn": 180,
+            "damge": 65
+        },
+        {
+            "title": "梦魔黑骑士卢甫斯",
+            "items": [
+                "梦境",
+                "已被封印的涅伊洛斯之剑"
+            ],
+            "img": "4.png",
+            "type": "小怪",
+            "health": 2500,
+            "despawn": 120,
+            "damge": 60
+        },
+        {
+            "title": "梦魇魔涅伊洛斯",
+            "items": [
+                "梦剑",
+                "梦魇头",
+                "梦魇甲",
+                "梦魇腿",
+                "梦魇鞋",
+                "梦之精华",
+                "破碎的梦之精华",
+                "梦境"
+            ],
+            "img": "5.png",
+            "type": "BOSS",
+            "health": 1150,
+            "despawn": 90,
+            "damge": 100
+        }
+    ],
+    "items": [
+        {
+            "title": "破碎的梦之精华",
+            "icon": "7.png",
+            "descriptionImg": "7-.png",
+            "use": [
+                "合成梦之精华",
+                "回收"
+            ],
+            "origin": [
+                "食梦貂",
+                "梦魇兽方塔斯",
+                "梦魇逆徒涅洛伊",
+                "梦魇魔涅伊洛斯"
+            ]
+        },
+        {
+            "title": "梦之精华",
+            "icon": "10.png",
+            "descriptionImg": "10-.png",
+            "use": [
+                "合成梦之核心",
+                "合成破境之镜",
+                "回收"
+            ],
+            "origin": [
+                "梦魇兽方塔斯",
+                "梦魇逆徒涅洛伊",
+                "梦魇魔涅伊洛斯",
+                "破碎的梦之精华合成"
+            ]
+        },
+        {
+            "title": "梦之核心[残次品]",
+            "icon": "13.png",
+            "descriptionImg": "13-.png",
+            "use": [
+                "合成梦之核心",
+                "回收"
+            ],
+            "origin": [
+                "分解梦境头",
+                "分解梦境甲",
+                "分解梦境腿",
+                "分解梦境鞋",
+                "分解梦境武器"
+            ]
+        },
+        {
+            "title": "梦之核心",
+            "icon": "6.png",
+            "descriptionImg": "6-.png",
+            "use": [
+                "合成梦境能源",
+                "合成涅洛伊斯的剑",
+                "回收"
+            ],
+            "origin": [
+                "梦之核心[残次品]合成"
+            ]
+        },
+        {
+            "title": "梦境",
+            "icon": "11.png",
+            "descriptionImg": "11-.png",
+            "use": [
+                "合成梦境能源",
+                "回收"
+            ],
+            "origin": [
+                "梦魔黑骑士卢甫斯",
+                "梦魇魔涅伊洛斯"
+            ]
+        },
+        {
+            "title": "梦境能源",
+            "icon": "8.png",
+            "descriptionImg": "8-.png",
+            "use": [
+                "合成破境之镜",
+                "合成圣具·清梦"
+            ],
+            "origin": [
+                "梦境剑兑换",
+                "梦之核心和梦镜合成"
+            ]
+        },
+        {
+            "title": "破境之镜",
+            "icon": "12.png",
+            "descriptionImg": "12-.png",
+            "use": [
+                "强化梦剑"
+            ],
+            "origin": [
+                "梦之净化和梦镜能源合成"
+            ]
+        }
+    ],
+    "equips": [
+        {
+            "title": "梦境帽",
+            "origin": [
+                "食梦貂"
+            ],
+            "icon": "15.png",
+            "descriptionImg": "15-.png",
+            "type": "头盔"
+        },
+        {
+            "title": "梦境甲",
+            "origin": [
+                "梦魇兽方塔斯"
+            ],
+            "icon": "16.png",
+            "descriptionImg": "16-.png",
+            "type": "胸甲"
+        },
+        {
+            "title": "梦境腿",
+            "origin": [
+                "梦魇兽方塔斯"
+            ],
+            "icon": "17.png",
+            "descriptionImg": "17-.png",
+            "type": "护腿"
+        },
+        {
+            "title": "梦境鞋",
+            "origin": [
+                "食梦貂"
+            ],
+            "icon": "18.png",
+            "descriptionImg": "18-.png",
+            "type": "靴子"
+        },
+        {
+            "title": "梦境剑",
+            "origin": [
+                "梦魇逆徒涅洛伊"
+            ],
+            "icon": "14.png",
+            "descriptionImg": "14-.png",
+            "type": "主武器"
+        },
+        {
+            "title": "已被封印的涅伊洛斯之剑",
+            "origin": [
+                "梦魔黑骑士卢甫斯"
+            ],
+            "icon": "19.png",
+            "descriptionImg": "19-.png",
+            "use": [
+                "合成涅伊洛斯之剑"
+            ],
+            "type": [
+                "材料",
+                "武器"
+            ]
+        },
+        {
+            "title": "涅伊洛斯之剑",
+            "origin": [
+                "梦境核心和已被封印的涅伊洛斯之剑合成"
+            ],
+            "icon": "25.png",
+            "descriptionImg": "25-.png",
+            "type": "主武器"
+        },
+        {
+            "title": "梦剑",
+            "origin": [
+                "梦魇魔涅伊洛斯"
+            ],
+            "icon": "20.png",
+            "descriptionImg": "20-.png",
+            "type": "主武器"
+        },
+        {
+            "title": "梦魇帽",
+            "origin": [
+                "梦魇魔涅伊洛斯"
+            ],
+            "icon": "21.png",
+            "descriptionImg": "21-.png",
+            "type": "头盔"
+        },
+        {
+            "title": "梦魇甲",
+            "origin": [
+                "梦魇魔涅伊洛斯"
+            ],
+            "icon": "22.png",
+            "descriptionImg": "22-.png",
+            "type": "胸甲"
+        },
+        {
+            "title": "梦魇腿",
+            "origin": [
+                "梦魇魔涅伊洛斯"
+            ],
+            "icon": "23.png",
+            "descriptionImg": "23-.png",
+            "type": "护腿"
+        },
+        {
+            "title": "梦魇鞋",
+            "origin": [
+                "梦魇魔涅伊洛斯"
+            ],
+            "icon": "24.png",
+            "descriptionImg": "24-.png",
+            "type": "靴子"
+        }
+    ]
+}

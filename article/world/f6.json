@@ -1,0 +1,343 @@
+{
+    "descriptions": [
+        {
+            "title": "理智不太稳定的村民",
+            "img": "g1.png",
+            "despawn": 180,
+            "damge": "22000",
+            "health": "1500000",
+            "type": "小怪"
+        },
+        {
+            "title": "理智不太稳定的村民",
+            "img": "g2.png",
+            "despawn": 180,
+            "damge": 25000,
+            "health": 1800000,
+            "type": "小怪"
+        },
+        {
+            "title": "完全失去理智的神父",
+            "img": "g3.png",
+            "despawn": 360,
+            "damge": 35000,
+            "health": 9000000,
+            "type": "小BOSS",
+            "items": [
+                "猎巫盔",
+                "猎巫衣",
+                "猎巫裤",
+                "猎巫鞋",
+                "禁忌之知识"
+            ]
+        },
+        {
+            "title": "尸",
+            "img": "g4.png",
+            "despawn": 180,
+            "damge": 30000,
+            "health": 3000000,
+            "type": "小怪"
+        },
+        {
+            "title": "劳姆",
+            "img": "g5.png",
+            "despawn": 480,
+            "damge": 55000,
+            "health": 12000000,
+            "type": "小BOSS",
+            "items": [
+                "降临盔",
+                "降临衣",
+                "降临裤",
+                "降临鞋",
+                "银钥玫瑰念珠",
+                "禁忌之知识",
+                "枯淡勾玉",
+                "励振火药",
+                "宵哭的铁锥"
+            ]
+        },
+        {
+            "title": "不知名邪神",
+            "img": "g6.png",
+            "despawn": 600,
+            "damge": 63000,
+            "health": 20000000,
+            "type": "BOSS",
+            "items": [
+                "禁忌之知识",
+                "枯淡勾玉",
+                "励振火药",
+                "宵哭的铁锥",
+                "幻想杀手",
+                "BLOO"
+            ]
+        }
+    ],
+    "items": [
+        {
+            "title": "禁忌之知识",
+            "icon": "c1.png",
+            "descriptionImg": "c1d.png",
+            "origin": [
+                "完全失去理智的神父",
+                "劳姆",
+                "不知名邪神"
+            ],
+            "use": [
+                "合成圣之眼",
+                "合成圣之心"
+            ]
+        },
+        {
+            "title": "枯淡勾玉",
+            "icon": "c2.png",
+            "descriptionImg": "c2d.png",
+            "origin": [
+                "劳姆",
+                "不知名邪神"
+            ],
+            "use": [
+                "合成圣之心"
+            ]
+        },
+        {
+            "title": "励振火药",
+            "icon": "c3.png",
+            "descriptionImg": "c3d.png",
+            "origin": [
+                "劳姆",
+                "不知名邪神"
+            ],
+            "use": [
+                "合成圣之沙"
+            ]
+        },
+        {
+            "title": "宵哭的铁锥",
+            "icon": "c4.png",
+            "descriptionImg": "c4d.png",
+            "origin": [
+                "劳姆",
+                "不知名邪神"
+            ],
+            "use": [
+                "合成圣之羽"
+            ]
+        },
+        {
+            "title": "幻想杀手",
+            "icon": "c5.png",
+            "descriptionImg": "c5d.png",
+            "origin": [
+                "不知名邪神"
+            ],
+            "use": [
+                "合成圣之沙"
+            ]
+        },
+        {
+            "title": "BLOO",
+            "icon": "c6.png",
+            "descriptionImg": "c6d.png",
+            "origin": [
+                "不知名邪神"
+            ],
+            "use": [
+                "合成圣之羽"
+            ]
+        }
+    ],
+    "equips": [
+        {
+            "title": "猎巫帽(残缺)",
+            "type": "头盔",
+            "icon": "1.png",
+            "descriptionImg": "1d.png",
+            "origin": [
+                "讨伐任务: I这些村民失去了理智"
+            ]
+        },
+        {
+            "title": "猎巫衣(残缺)",
+            "type": "胸甲",
+            "icon": "2.png",
+            "descriptionImg": "2d.png",
+            "origin": [
+                "讨伐任务: II这些村民失去了理智"
+            ]
+        },
+        {
+            "title": "猎巫裤(残缺)",
+            "type": "护腿",
+            "icon": "3.png",
+            "descriptionImg": "3d.png",
+            "origin": [
+                "讨伐任务: III这些村民失去了理智"
+            ]
+        },
+        {
+            "title": "猎巫鞋(残缺)",
+            "type": "靴子",
+            "icon": "4.png",
+            "descriptionImg": "4d.png",
+            "origin": [
+                "讨伐任务: IV这些村民失去了理智"
+            ]
+        },
+        {
+            "title": "猎巫帽",
+            "type": "头盔",
+            "icon": "5.png",
+            "descriptionImg": "5d.png",
+            "origin": [
+                "完全失去理智的神父"
+            ]
+        },
+        {
+            "title": "猎巫衣",
+            "type": "胸甲",
+            "icon": "6.png",
+            "descriptionImg": "6d.png",
+            "origin": [
+                "完全失去理智的神父"
+            ]
+        },
+        {
+            "title": "猎巫裤",
+            "type": "护腿",
+            "icon": "7.png",
+            "descriptionImg": "7d.png",
+            "origin": [
+                "完全失去理智的神父"
+            ]
+        },
+        {
+            "title": "猎巫鞋",
+            "type": "靴子",
+            "icon": "8.png",
+            "descriptionImg": "8d.png",
+            "origin": [
+                "完全失去理智的神父"
+            ]
+        },
+        {
+            "title": "降临盔(残缺)",
+            "type": "头盔",
+            "icon": "9.png",
+            "descriptionImg": "9d.png",
+            "origin": [
+                "讨伐任务: I杀掉他们！！！！！"
+            ]
+        },
+        {
+            "title": "降临衣(残缺)",
+            "type": "胸甲",
+            "icon": "10.png",
+            "descriptionImg": "10d.png",
+            "origin": [
+                "讨伐任务: II杀掉他们！！！！！"
+            ]
+        },
+        {
+            "title": "降临裤(残缺)",
+            "type": "护腿",
+            "icon": "11.png",
+            "descriptionImg": "11d.png",
+            "origin": [
+                "讨伐任务: III杀掉他们！！！！！"
+            ]
+        },
+        {
+            "title": "降临鞋(残缺)",
+            "type": "靴子",
+            "icon": "12.png",
+            "descriptionImg": "12d.png",
+            "origin": [
+                "讨伐任务: IV杀掉他们！！！！！"
+            ]
+        },
+        {
+            "title": "降临盔",
+            "type": "头盔",
+            "icon": "13.png",
+            "descriptionImg": "13d.png",
+            "origin": [
+                "劳姆"
+            ]
+        },
+        {
+            "title": "降临衣",
+            "type": "胸甲",
+            "icon": "14.png",
+            "descriptionImg": "14d.png",
+            "origin": [
+                "劳姆"
+            ]
+        },
+        {
+            "title": "降临裤",
+            "type": "护腿",
+            "icon": "15.png",
+            "descriptionImg": "15d.png",
+            "origin": [
+                "劳姆"
+            ]
+        },
+        {
+            "title": "降临鞋",
+            "type": "靴子",
+            "icon": "16.png",
+            "descriptionImg": "16d.png",
+            "origin": [
+                "劳姆"
+            ]
+        },
+        {
+            "title": "银钥玫瑰念珠",
+            "type": "主武器",
+            "icon": "17.png",
+            "descriptionImg": "17d.png",
+            "origin": [
+                "劳姆"
+            ]
+        },
+        {
+            "title": "深蓝",
+            "type": "圣之羽",
+            "icon": "18.png",
+            "descriptionImg": "18d.png",
+            "origin": [
+                "BLOO和宵哭的铁锥"
+            ]
+        },
+        {
+            "title": "神净讨魔",
+            "type": "圣之沙",
+            "icon": "19.png",
+            "descriptionImg": "19d.png",
+            "origin": [
+                "幻想杀手和励振火药"
+            ]
+        },
+        {
+            "title": "神话*婚狐之嫁",
+            "type": "圣之心",
+            "icon": "20.png",
+            "descriptionImg": "20d.png",
+            "origin": [
+                "禁忌之知识和枯淡勾玉合成"
+            ]
+        },
+        {
+            "title": "星辰驰骋的终幕蔷薇",
+            "type": "圣之眼",
+            "icon": "21.png",
+            "descriptionImg": "21d.png",
+            "origin": [
+                "禁忌之知识合成"
+            ]
+        }
+    ]
+}
